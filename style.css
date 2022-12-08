@@ -11,20 +11,17 @@ body{
     background: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 main{
     text-align: center;
     background: #fff;
-    width: 75%;
-    height: 63%;
+    max-width: 20rem;
     display: grid;
     justify-items: center;
-    /*grid-template-rows: 2fr 1fr 1fr;*/
     padding: 1rem 1rem;
     border-radius: 1.5rem;
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
 }
 main img{
     width: 100%;
@@ -67,6 +64,6 @@ main p{
 @media(min-width: 1201px){
     main{
         width: 20%;
-        height: 40%;
+        height: 50%;
     }
 }
